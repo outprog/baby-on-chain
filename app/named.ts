@@ -9,7 +9,7 @@ boc.setProvider(provider)
 const run = async () => {
     const instance = await boc.deployed()
     const res = await instance.named(
-        '链链',
+        '熊雨潇',
         { from: provider.getAddress() }
     )
     console.log(res)

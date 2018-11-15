@@ -46,7 +46,7 @@ module.exports = {
       provider: mainnetProvider,
       network_id: '1',
       gas: 2000000,
-      gasPrice: web3.toWei('3', 'gwei'),
+      gasPrice: web3.toWei('20', 'gwei'),
     }
   }
 };
